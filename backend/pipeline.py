@@ -1,22 +1,16 @@
-def process_video(video_path):
-    # Simulated AI pipeline
+from backend.ai_logic import detect_emotional_peaks, generate_hooks, calculate_viral_score
 
-    results = [
-        {
-            "clip": "clip1.mp4",
-            "hook": "This insight will change your mindset",
-            "score": 0.82
-        },
-        {
-            "clip": "clip2.mp4",
-            "hook": "Nobody talks about this",
-            "score": 0.91
-        },
-        {
-            "clip": "clip3.mp4",
-            "hook": "This is powerful advice",
-            "score": 0.87
-        }
-    ]
+def process_video(video_path):
+    peaks = detect_emotional_peaks()
+    hooks = generate_hooks()
+
+    results = []
+
+    for i, peak in enumerate(peaks):
+        results.append({
+            "clip": f"clip_{i}.mp4",
+            "hook": hooks[i],
+            "score": calculate_viral_score(peak["intensity"])
+        })
 
     return results
