@@ -51,7 +51,7 @@ AttentionX AI automatically converts long videos into short, high-impact clips u
 ---
 
 ## 🎬 Demo Video
-👉 (PASTE YOUR GOOGLE DRIVE LINK HERE)
+👉 https://drive.google.com/file/d/1R_k3CfWpZpn9vG9EmrcTcyuVP9fxZBFI/view?usp=drivesdk
 
 ---
 
