@@ -1,4 +1,4 @@
-# 🎯 AttentionX AI – Automated Content Repurposing Engine
+# 🎯 AttentionX AI – Automated Content Repurposing Engine (🚀 Turn 1 video into 10 viral clips instantly) 
 
 ## 🚀 Problem
 Creators produce hours of long-form content, but audiences consume short-form. Extracting viral moments manually is slow, inefficient, and requires heavy editing effort.
